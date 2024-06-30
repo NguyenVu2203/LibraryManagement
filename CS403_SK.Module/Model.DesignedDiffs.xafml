@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="CS403_SK">
+  <BOModel>
+    <Class Name="CS403_SK.Module.BusinessObjects.ORMDataModel1.DonHang">
+      <OwnMembers>
+        <Member Name="NgayTaoDon" DisplayFormat="{0:dd/MM/yyyy HH:mm}" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="ChiTietDonHang_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="DanhGiaSanPham_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="DanhMuc_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="DonHang_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="KhuyenMai_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="NguoiDung_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="NhaCC_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="SanPham_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+  </Views>
+</Application>
