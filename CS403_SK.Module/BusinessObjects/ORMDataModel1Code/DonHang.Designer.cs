@@ -49,20 +49,45 @@ namespace CS403_SK.Module.BusinessObjects.ORMDataModel1
             get { return fMaND; }
             set { SetPropertyValue<NguoiDung>(nameof(MaND), ref fMaND, value); }
         }
+        string fDiaChiNhanHang;
+        public string DiaChiNhanHang
+        {
+            get { return fDiaChiNhanHang; }
+            set { SetPropertyValue<string>(nameof(DiaChiNhanHang), ref fDiaChiNhanHang, value); }
+        }
+        string fHoTen;
+        public string HoTen
+        {
+            get { return fHoTen; }
+            set { SetPropertyValue<string>(nameof(HoTen), ref fHoTen, value); }
+        }
+        string fSDT;
+        public string SDT
+        {
+            get { return fSDT; }
+            set { SetPropertyValue<string>(nameof(SDT), ref fSDT, value); }
+        }
+        string fTenShipper;
+        public string TenShipper
+        {
+            get { return fTenShipper; }
+            set { SetPropertyValue<string>(nameof(TenShipper), ref fTenShipper, value); }
+        }
+        string fSDT_Shipper;
+        public string SDT_Shipper
+        {
+            get { return fSDT_Shipper; }
+            set { SetPropertyValue<string>(nameof(SDT_Shipper), ref fSDT_Shipper, value); }
+        }
+        Shipper fMaShipper;
+        [Association(@"DonHangReferencesShipper")]
+        public Shipper MaShipper
+        {
+            get { return fMaShipper; }
+            set { SetPropertyValue<Shipper>(nameof(MaShipper), ref fMaShipper, value); }
+        }
         [Association(@"ChiTietDonHangReferencesDonHang")]
         public XPCollection<ChiTietDonHang> ChiTietDonHangs { get { return GetCollection<ChiTietDonHang>(nameof(ChiTietDonHangs)); } }
-        public decimal TongTien
-        {
-            get
-            {
-                decimal tien = 0;
-                foreach (ChiTietDonHang item in ChiTietDonHangs)
-                {
-                    tien += item.ThanhTien;
-                }
-                return tien;
-            }
-        }
     }
 
 }

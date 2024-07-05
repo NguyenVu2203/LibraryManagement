@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a91bb595-4edd-4ea3-b7db-6ca1b6059cb9" namespace="CS403_SK.Module.BusinessObjects.ORMDataModel1" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.3.0" name="ORMDataModel1" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a91bb595-4edd-4ea3-b7db-6ca1b6059cb9" namespace="CS403_SK.Module.BusinessObjects.ORMDataModel1" dataBaseShemaInfo="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" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.3.0" name="ORMDataModel1" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
   <classes>
     <dataBaseObjectModelHasClasses Id="4c6fee74-99f0-465b-ab42-b95736f1e858">
       <xpObject Id="a6ecc740-67dd-4bb1-ab17-de1875fb948c" name="DanhMuc" baseClass="XPObject" userFileName="DanhMuc" designerFileName="DanhMuc.Designer" className="DanhMuc" virtualName="DanhMuc">
@@ -188,6 +188,24 @@
           <generalXpObjectHasFields Id="bfc48438-8fbd-4d49-977a-4589cb4a6218">
             <field Id="9220bdaf-04ad-4b86-a4e8-611ec2624448" name="MaND" virtualColumnType="NguoiDung" logicalType="NguoiDung" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9f2fb0ff-c424-4fbc-a444-9bc952d5bb03">
+            <field Id="326ee704-0c57-4ba2-bb3f-0dcad1646092" name="DiaChiNhanHang" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="389e56cb-6510-47f1-88fc-7bebf23cbaf2">
+            <field Id="890bd57c-160e-4017-9cb3-d67457eb933e" name="HoTen" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4e968920-1b55-4ec5-b806-0dc0b32a1f99">
+            <field Id="7cda820c-25b5-45a7-ab1d-0463cc20c81a" name="SDT" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="139bc48a-bf0a-4fe7-9273-901db137c406">
+            <field Id="81ef7556-c937-4975-89ce-742a943f82b6" name="TenShipper" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="070e4e00-f65a-4e12-b8a3-8e2e6b2c16cc">
+            <field Id="18593a55-645f-4dd1-bc6c-4b40ac692d11" name="SDT_Shipper" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="80fe64c3-845e-49e0-b807-89b9a01cea3a">
+            <field Id="58d0c640-24b8-4a93-ad20-5c6fb0c275f1" name="MaShipper" virtualColumnType="Shipper" logicalType="Shipper" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
         </fields>
         <saTargets>
           <simpleAssociation Id="f69263c2-8aaf-4e28-8cf8-b3299b171b12" sourceCollectionName="ChiTietDonHangs" name="ChiTietDonHangReferencesDonHang" targetFieldName="MaDH">
@@ -272,6 +290,34 @@
             <field Id="9eb967c3-be40-4959-a277-39e59cff8352" name="MaSP" virtualColumnType="SanPham" logicalType="SanPham" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
         </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="0bc4e0f0-2226-4ef9-8dea-da4b252d7a7e">
+      <xpObject Id="47528bdc-f562-4fbd-a084-e2ac9ae0ce8f" name="Shipper" baseClass="XPObject" userFileName="Shipper" designerFileName="Shipper.Designer" className="Shipper" virtualName="Shipper">
+        <fields>
+          <generalXpObjectHasFields Id="11a2c301-282b-4305-b5a4-ef998c148763">
+            <field Id="cb41dcba-5481-45fc-9299-7f900c4472c5" name="MaShipper" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="49682d1e-1609-4407-b41f-ad97b3d10716">
+            <field Id="49e5085e-5a33-4fbc-89fa-ada47f895bdb" name="TenShipper" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1bc5ed87-f77a-4227-9fd4-bdda8f7faccf">
+            <field Id="af376686-f339-4853-8050-595121851609" name="DiaChi_Shipper" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="69a6cc39-473e-4d18-9c75-219ee1142d11">
+            <field Id="cd1714b6-d7ea-4b25-bedf-5b9eab76141e" name="SDT_Shipper" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="14918af9-939e-4e1e-888f-6f5906f4812c" sourceCollectionName="DonHangs" name="DonHangReferencesShipper" targetFieldName="MaShipper">
+            <xpObjectMoniker Id="7947fbc4-28e1-419c-9d38-4d6fbc1fa0c4" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="48d86997-e399-4971-a2f0-ede17732c6f8">
+            <collectionField Id="c3c2b93e-495e-4b54-af13-680d86a7f4e2" name="DonHangs" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
       </xpObject>
     </dataBaseObjectModelHasClasses>
   </classes>

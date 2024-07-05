@@ -10,3 +10,4 @@ F:\CS403_SK\CS403_SK.Module\obj\Debug\net8.0\CS403_SK.Module.dll
 F:\CS403_SK\CS403_SK.Module\obj\Debug\net8.0\refint\CS403_SK.Module.dll
 F:\CS403_SK\CS403_SK.Module\obj\Debug\net8.0\CS403_SK.Module.pdb
 F:\CS403_SK\CS403_SK.Module\obj\Debug\net8.0\ref\CS403_SK.Module.dll
+F:\CS403_SK\CS403_SK.Module\obj\Debug\net8.0\CS403_SK.Module.sourcelink.json

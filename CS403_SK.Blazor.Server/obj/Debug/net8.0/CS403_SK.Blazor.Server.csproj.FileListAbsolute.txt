@@ -236,3 +236,4 @@ F:\CS403_SK\CS403_SK.Blazor.Server\obj\Debug\net8.0\refint\CS403_SK.Blazor.Serve
 F:\CS403_SK\CS403_SK.Blazor.Server\obj\Debug\net8.0\CS403_SK.Blazor.Server.pdb
 F:\CS403_SK\CS403_SK.Blazor.Server\obj\Debug\net8.0\CS403_SK.Blazor.Server.genruntimeconfig.cache
 F:\CS403_SK\CS403_SK.Blazor.Server\obj\Debug\net8.0\ref\CS403_SK.Blazor.Server.dll
+F:\CS403_SK\CS403_SK.Blazor.Server\obj\Debug\net8.0\CS403_SK.Blazor.Server.sourcelink.json
