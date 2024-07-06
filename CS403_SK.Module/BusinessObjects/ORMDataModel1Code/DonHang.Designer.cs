@@ -67,6 +67,13 @@ namespace CS403_SK.Module.BusinessObjects.ORMDataModel1
             get { return fSDT; }
             set { SetPropertyValue<string>(nameof(SDT), ref fSDT, value); }
         }
+        Shipper fMaShipper;
+        [Association(@"DonHangReferencesShipper")]
+        public Shipper MaShipper
+        {
+            get { return fMaShipper; }
+            set { SetPropertyValue<Shipper>(nameof(MaShipper), ref fMaShipper, value); }
+        }
         string fTenShipper;
         public string TenShipper
         {
@@ -79,12 +86,19 @@ namespace CS403_SK.Module.BusinessObjects.ORMDataModel1
             get { return fSDT_Shipper; }
             set { SetPropertyValue<string>(nameof(SDT_Shipper), ref fSDT_Shipper, value); }
         }
-        Shipper fMaShipper;
-        [Association(@"DonHangReferencesShipper")]
-        public Shipper MaShipper
+        decimal fTongTien;
+        public decimal TongTien
         {
-            get { return fMaShipper; }
-            set { SetPropertyValue<Shipper>(nameof(MaShipper), ref fMaShipper, value); }
+            get
+            {
+                decimal tien = 0;
+                foreach (ChiTietDonHang item in ChiTietDonHangs)
+                {
+                    tien += item.ThanhTien;
+                }
+                return tien;
+            }
+            set { SetPropertyValue<decimal>(nameof(TongTien), ref fTongTien, value); }
         }
         [Association(@"ChiTietDonHangReferencesDonHang")]
         public XPCollection<ChiTietDonHang> ChiTietDonHangs { get { return GetCollection<ChiTietDonHang>(nameof(ChiTietDonHangs)); } }

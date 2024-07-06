@@ -47,7 +47,18 @@ namespace CS403_SK.Module.BusinessObjects.ORMDataModel1
         public SanPham MaSP
         {
             get { return fMaSP; }
-            set { SetPropertyValue<SanPham>(nameof(MaSP), ref fMaSP, value); }
+            set
+            {
+                if (SetPropertyValue<SanPham>(nameof(MaSP), ref fMaSP, value)
+                    && value != null && !IsLoading)
+                    DonGia = value.Gia;
+            }
+        }
+        string fTenSP;
+        public string TenSP
+        {
+            get { return fTenSP; }
+            set { SetPropertyValue<string>(nameof(TenSP), ref fTenSP, value); }
         }
         DonHang fMaDH;
         [Association(@"ChiTietDonHangReferencesDonHang")]
@@ -55,6 +66,13 @@ namespace CS403_SK.Module.BusinessObjects.ORMDataModel1
         {
             get { return fMaDH; }
             set { SetPropertyValue<DonHang>(nameof(MaDH), ref fMaDH, value); }
+        }
+        decimal fThanhTien;
+        public decimal ThanhTien
+        {
+            get { return (decimal)SoLuong * DonGia; }
+
+            set { SetPropertyValue<decimal>(nameof(ThanhTien), ref fThanhTien, value); }
         }
     }
 
